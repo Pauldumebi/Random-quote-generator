@@ -1,0 +1,65 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   overflow: hidden;
+   outline: none !important;
+  
+}
+
+body {
+   background: #521811;
+}
+
+#container {
+   left: 50%;
+   height: 430px;
+   width: 800px;
+   margin: 9% 20%;
+   background-color: white;
+}
+
+#generateQuote {
+   width: 250px;
+   height: 50px;
+   margin-left: 33%;
+   margin-top: 10%;
+   border: none;
+}
+
+#generateQuote:hover {
+   transition: all 0.5s ease-in-out;
+   transform: scale(1.08);
+   background-color: blue;
+   color: white;
+   border: none;
+   cursor: pointer;
+}
+
+#quoteSign {
+   font-size: 5rem;
+   position: fixed;
+   margin-top: 10%;
+   margin-left: -32%;
+   display: none;
+}
+
+p {
+   line-height: 2rem;
+}
+
+#quote {
+   margin-top: 5%;
+   margin-left: 15%;
+   width: 35rem;
+   font-size: 1.5rem;
+  
+}
+
+#author {
+   font-size: large;
+   margin-left: 40%;
+   margin-top: 2%;
+   font-style: italic;
+   position: fixed;
+}
